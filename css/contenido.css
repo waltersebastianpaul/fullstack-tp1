@@ -11,7 +11,7 @@ a {
 }
 
 .contenedor-principal {
-    background-color: #edf8fb;
+    background-color: #fefefe;
     padding-top: 48px;
 }
 
@@ -21,32 +21,7 @@ main {
 
 section.titulo-principal {
     margin-bottom: 24px;
-    padding: 30px 5px;
-}
-
-section.titulo-principal p {
-    font-size: 16px !important;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.testimoniales {
-    margin: 100px 0 0 0;
-}
-
-.testimoniales .card {
-    height: 100%;
-    padding: 8px;
-    background-color: rgba(173, 173, 173, 0.211);
-}
-
-.testimoniales img{
-    width: 50% !important;
-    margin-bottom: 12px;
-}
-
-.testimoniales .item p {
-    margin-top: 8px;
-    font-style: italic;
+    padding: 10px 50px;
 }
 
 .contenedor {
@@ -67,6 +42,11 @@ section.titulo-principal p {
 
 .item > a > .card-body > h5 {
     text-align: center;
+}
+
+.modulos .modulo-img-top {
+    width: 200px;
+
 }
 
 /* MEDIA QUERIES */
@@ -96,11 +76,7 @@ section.titulo-principal p {
     }
 
     main {
-        padding: 10px 20px;
-    }
-
-    .banner {
-        display: none;
+        padding: 10px 40px;
     }
 
     .contenedor {
@@ -108,12 +84,7 @@ section.titulo-principal p {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
         margin: auto 0px;
-        gap: 20px;
-    }
-
-    .testimoniales .col-3 {
-        width: 50%;
-        margin: 10px 0px;
+        gap: 30px;
     }
 
     footer {
