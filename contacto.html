@@ -7,16 +7,198 @@
     <meta name="description" content="Una página sobre tecnología">
     <meta name="keywords" content="app, android">
     <meta name="author" content="Walter Sebastian Paul">
-    <title>AdminOBR - Contacto</title>
-    <link rel="stylesheet" href="css/contacto.css">
+    <title>AdminO - Contacto</title>
+    <link rel="stylesheet" href="css/index.css">
     <link href="favicon.ico" rel="shortcut icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
 
     <div class="contenedor-principal container-fluid px-0">
-        
+        <header>
+            <nav class="navbar navbar-expand-lg bg-lght border-bottom border-body fixed-top" data-bs-theme="ligth">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/admino_logo.png" alt="Logo AdminObr Menu" width="24" class="d-inline-block align-text-top me-2">AdminO</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="modulos.html">Modulos</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="partes_diarios.html">Partes diarios</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        
+                        <a class="btn btn btn-primary d-lg-inline-block my-2 my-md-0 ms-md-3" href="https://adminobr.com/" target="_blank">Ingresar a la app</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <main>
+            <!-- ================= HERO ================= -->
+            <section class="hero">
+                <div class="wrapper hero__wrapper">
+                    <div>
+                        <span class="hero__label">
+                            App Android - Web
+                        </span>
+
+                        <h1 class="hero__title">
+                        La obra, los equipos y los partes, <span class="hero__highlight">en un solo lugar</span>
+                        </h1>
+
+                        <p class="hero__text">
+                        AdminO es una plataforma para empresas de construccion e infraestructura, registra el trabajo diario de cada equipo, sus traslados entre sucursales y las observaciones de campo, y lo convierte en información para decidir.
+                        </p>
+
+                        <a class="btn btn btn-primary d-lg-inline-block my-2 my-md-0 ms-md-3" href="modulos.html">Conocer los modulos</a>
+                        <a class="btn btn btn-outline-secondary d-lg-inline-block my-2 my-md-0 ms-md-3" href="#">Pedir una demo</a>
+                    </div>
+                    <div class="hero__image">
+                        <img src="img/admino_hero.png" alt="Imagen de la app AdminO" class="hero__img">
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= QUE RESUELVE ================= -->
+            <section class="resolve">
+                <div class="wrapper resolve__wrapper">
+                    <div class="resolve__text-box">
+                        <h3 class="resolve__title">
+                        Qué resuelve AdminO
+                        </h3>
+
+                        <p class="resolve__text">
+                        Pensado para quien gestiona flota y obra todos los dias, en la oficina y en el campo.
+                        </p>
+
+                    </div>
+                    <div class="resolve__cards">
+                        <div class="resolve__card">
+                            <span class="resolve__icon-box partes">
+                                <i class="bi bi-clipboard-check"></i>
+                            </span>
+                            <h6 class="resolve__title">Partes diarios</h6>
+                            <p class="resolve__text">Cada equipo registra lectura, horas, kilometros, combustible y paros desde el celular, aunque este en obra.</p>
+                        </div>
+                        <div class="resolve__card">
+                            <span class="resolve__icon-box flota">
+                                <i class="bi bi-truck"></i>
+                            </span>
+                            <h6 class="resolve__title">Flota bajo control</h6>
+                            <p class="resolve__text">Sabé donde esta cada equipo, quien lo opera, cuando cargó su último parte y cuanto consume.</p>
+                        </div>
+                        <div class="resolve__card">
+                            <span class="resolve__icon-box reportes">
+                                <i class="bi bi-bar-chart-line"></i>
+                            </span>
+                            <h6 class="resolve__title">Avisos y reportes</h6>
+                            <p class="resolve__text">El panel señala lo que hay que revisar: equipos sin parte, consumos fuera de lo normal, paros.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= QUE DICEN LOS USUARIOS ================= -->
+            <section class="testimonials">
+                <div class="wrapper testimonials__wrapper">
+                    <div class="testimonials__text-box">
+                        <h3 class="testimonials__title">
+                        Lo que dicen quienes la usan
+                        </h3>
+
+                        <p class="testimonials__text">
+                        En la oficina y en el campo, desde la web o la aplicación móvil.
+                        </p>
+
+                    </div>
+                    <div class="testimonials__cards">
+                        <div class="testimonials__card">
+                            <span class="testimonials__icon-box partes">
+                                <i class="bi bi-quote"></i>
+                            </span>
+                            <p class="testimonials__text">"Antes los partes llegaban con retraso. Ahora los veo el mismo día y se que equipo está parado".</p>
+                            <div class="testimonials__author">
+                                <strong class="testimonials__name">Matias Andreoli</strong>
+                                <p class="testimonials__role">Administrativo de obra - usa la app Web</p>
+                            </div>
+                        </div>
+                        <div class="testimonials__card">
+                            <span class="testimonials__icon-box flota">
+                                <i class="bi bi-quote"></i>
+                            </span>
+                            <p class="testimonials__text">"Cargo el parte desde el celular, al terminar la jornada, en un minuto, aunque no haya señal en la obra".</p>
+                            <div class="testimonials__author">
+                                <strong class="testimonials__name">Guy Oscar</strong>
+                                <p class="testimonials__role">Operario de motoniveladora - usa la app Android</p>
+                            </div>
+                        </div>
+                        <div class="testimonials__card">
+                            <span class="testimonials__icon-box reportes">
+                                <i class="bi bi-quote"></i>
+                            </span>
+                            <p class="testimonials__text">"Los traslados entre obras, quedan registrados: sé que salió, qué está en transito y que se recibió".</p>
+                            <div class="testimonials__author">
+                                <strong class="testimonials__name">Cristian Vega</strong>
+                                <p class="testimonials__role">Encargado de logística - usa la app Web</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+            
+
+        <footer class="footer p-4 border-top bg-dark" data-bs-theme="dark">
+            <div class="footer-col-1">
+                <h5 class="mb-0 text-body-secondary">
+                    <a href="https://adminobr.com/" target="_blank" class="text-body-secondary">AdminO</a>
+                </h5>
+                <p class="mb-0 text-body-secondary">
+                    Gestión inteligente de flota, partes diarios y operaciones de campo.
+                </p>
+            </div>
+
+            <div class="footer-col-2">
+                <p class="mb-2 fw-bold text-body-secondary">
+                    Sitio
+                </p>
+                <ul class="footer-links list-unstyled d-flex flex-column gap-2 ps-0 mb-2"> 
+                    <li class="nav-item"><a href="index.html" class="nav-link text-body-secondary">Inicio</a></li> 
+                    <li class="nav-item"><a href="modulos.html" class="nav-link text-body-secondary">Modulos</a></li> 
+                    <li class="nav-item"><a href="partes_diarios.html" class="nav-link text-body-secondary">Partes diarios</a></li> 
+                    <li class="nav-item"><a href="contacto.html" class="nav-link text-body-secondary">Contacto</a></li> 
+                </ul>
+            </div>
+
+            <div class="footer-col-3 ps-3">
+                <p class="mb-2 fw-bold text-body-secondary">
+                    Plataforma
+                </p>
+                <ul class="footer-links list-unstyled d-flex flex-column gap-2 pl-0 mb-2"> 
+                    <li class="nav-item"><a href="https://adminobr.com/" target="_blank" class="nav-link text-body-secondary">adminobr.com</a></li> 
+                    <li class="nav-item"><a href="https://github.com/waltersebastianpaul/fullstack-tp1" target="_blank" class="nav-link text-body-secondary">github.com</a></li> 
+                </ul>
+            </div>
+            
+            <p class="footer-copy text-body-secondary">
+                <a href="https://adminobr.com/" target="_blank" class="text-body-secondary">Adminia</a> © 2026 Trabajo práctico - Diplomatura Full Stack - Walter Sebastian Paul
+            </p>
+        </footer>
 
     </div>
 

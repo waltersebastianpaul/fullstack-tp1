@@ -1,0 +1,251 @@
+/* =========================================================
+  VARIABLES
+========================================================= */
+:root {
+  --color-blue: #0F3DB5;
+  --color-light_bg: #D4E1F4;
+  --color-orange: #F2683C;
+  --color-black: #12161F;
+  --color-light: #F4F7FE;
+  --color-gray: #948E9B;
+  --color-white: #FFFFFF;
+  --color-border: #DDE3F3;
+
+  --font-main: "Poppins", Arial, sans-serif;
+
+  --max-width: 1100px;
+  --radius: 8px;
+  --space-section: 80px;
+}
+
+
+/* =========================================================
+  RESET BÁSICO
+========================================================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 80px;
+  font-family: var(--font-main);
+  color: var(--color-black);
+  background-color: var(--color-white);
+  line-height: 1.5;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand__text p {
+    margin: 0;
+    font-size: 9px;
+    color: #777;
+}
+
+.navbar-brand__text strong {
+    display: block;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.nav-link.active {
+    font-weight: 600;
+    color: var(--color-blue) !important;
+}
+
+.wrapper {
+  width: 95%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.hero__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 20px 12px;
+}
+
+.hero__wrapper > div {
+    flex: 1;
+    min-width: 0;
+}
+
+.hero__label {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--color-blue);
+}
+
+.modulos__icon-box.operacion {
+    background-color: #e8f0fe;
+    color: #0d6efd;
+}
+
+.modulos__icon-box.flotaYAnalisis {
+    background-color: #e6f5ef;
+    color: #147a52;
+}
+
+.modulos__icon-box.gestion {
+    background-color: #fff1e0;
+    color: #b85c00;
+}
+
+.modulos__icon-box.proximamente {
+    background-color: #fce2fd;
+    color: #a6009c;
+}
+
+.modulos__category {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f7fa;
+    gap: 10px;
+    padding: 30px 20px;
+}
+
+.modulos__category-header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 12px;
+}
+
+.modulos__category-title,
+.modulos__category-text {
+    margin: 0;
+}
+
+.modulos__category-text {
+    font-size: 14px;
+    color: #666;
+}
+
+.modulos__card > p, .modulos__list-item {
+    font-size: 13px;
+}
+
+.modulos__cards {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 10px;
+    /*flex-wrap: wrap;*/
+    margin-bottom: 25px;
+}
+
+.modulos__card {
+    flex: 1;
+    min-width: 0;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.modulos__icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    background-color: #e8f0fe;
+    border-radius: 8px;
+    color: #0d6efd;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.modulos__contact {
+    padding: 30px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.modulos__contact-content {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.modulos__text {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+.modulos__icon-box.partes {
+    background-color: #e8f0fe;
+    color: #0d6efd;
+}
+
+.modulos__icon-box.flota {
+    background-color: #fff1e0;
+    color: #b85c00;
+}
+
+.modulos__icon-box.reportes {
+    background-color: #e6f5ef;
+    color: #147a52;
+}
+
+.modulos__contact-content > p {
+    font-size: 13px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    font-size: 14px;
+}
+
+.footer-col-1 {
+    justify-self: start;
+    
+}
+
+.footer-col-2 {
+    justify-self: center;
+}
+
+.footer-col-3 {
+    justify-self: end;
+}
+
+.footer-copy {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 15px;
+    border-top: 1px solid #444;
+}
+
+.footer-copy a {
+    text-decoration: none;
+}
+
+.footer-col-1 a {
+    text-decoration: none;
+}
+
+/* =========================================================
+UTILIDADES / COMPONENTES COMUNES
+========================================================= */
+.wrapper {
+    width: 90%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+
+
+

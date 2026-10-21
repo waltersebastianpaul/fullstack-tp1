@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Una página sobre tecnología">
+    <meta name="keywords" content="app, android">
+    <meta name="author" content="Walter Sebastian Paul">
+    <title>AdminO - Partes Diarios</title>
+    <link rel="stylesheet" href="css/partes_diarios.css">
+    <link href="favicon.ico" rel="shortcut icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <div class="contenedor-principal container-fluid px-0">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-light border-bottom border-body fixed-top" data-bs-theme="light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/admino_logo.png" alt="Logo AdminObr Menu" width="24" class="d-inline-block align-text-top me-2">AdminO</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="modulos.html">Modulos</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link active" href="partes_diarios.html">Partes diarios</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        
+                        <a class="btn btn btn-primary d-lg-inline-block my-2 my-md-0 ms-md-3" href="https://adminobr.com/" target="_blank">Ingresar a la app</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <main>
+            <div class="main__wrapper">
+    
+                <!-- ================= HERO ================= -->
+                <section class="hero">
+                    <div class="wrapper hero__wrapper">
+                    
+                        <div>
+                            <p class="hero__breadcrumbs">
+                                Inicio > Modulos > <span class="hero__breadcrumb">Partes diarios</span>
+                            </p>
+                            
+                            <span class="hero__label">
+                                Módulo - Operación
+                            </span>
+
+                            <h1 class="hero__title">
+                            Partes diarios: <span class="hero__highlight">el registro de cada jornada</span>
+                            </h1>
+
+                            <p class="hero__text">
+                            El parte diario es fundamental para AdminO. Cada equipo informa que hizo en el día y, con esos datos, la plataforma calcula horas y avisa cuando algo no está bien.
+                            </p>
+
+                            <img src="img/admino_partes.png" alt="Imagen de la app AdminO" class="hero__img-partes">
+
+                            <div class="descripcion mt-4">
+                                <h4>Qué registra cada parte</h4>
+                                <p>Un parte corresponde a un equipo en un día. Además del equipo, el operador guarda:</p>
+                                <ul>
+                                    <li><strong>Lectura</strong> del odómetro u horómetro al final de la jornada (kms u hs).</li>
+                                    <li><strong>Trabajo realizado</strong>: horas o kilometros, calculados contra el parte anterior.</li>
+                                    <li><strong>Combustible</strong> cargado, para medir el consumo por hora trabajada.</li>
+                                    <li><strong>Paros</strong> y su causa: franco, sin tarea, rotura, mal tiempo.</li>
+                                    <li><strong>Observaciones</strong> con las novedades del equipo. Que se respopnden desde el muro</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="instructivo mt-4">
+                                <h4 class="mb-2">Cómo se carga un parte</h4>
+                                <ol>
+                                    <li><strong>Lectura</strong> del odómetro u horómetro al final de la jornada (kms u hs).</li>
+                                    <li><strong>Trabajo realizado</strong>: horas o kilometros, calculados contra el parte anterior.</li>
+                                    <li><strong>Combustible</strong> cargado, para medir el consumo por hora trabajada.</li>
+                                    <li><strong>Paros</strong> y su causa: franco, sin tarea, rotura, mal tiempo.</li>
+                                    <li><strong>Observaciones</strong> con las novedades del equipo. Que se respopnden desde el muro.</li>
+                                </ol>
+                            </div>
+                        
+                        </div>
+                        <div class="hero__resumen">
+                            <div class="resumen__cards">
+                                <div class="resumen__card">
+                                    <span class="resumen__icon-box partes">
+                                        <i class="bi bi-clipboard-check"></i>
+                                    </span>
+                                    <h6 class="resumen__title">Partes diarios</h6>
+                                    <p class="resumen__text">Cada equipo registra lectura, horas, kilometros, combustible y paros desde el celular, aunque este en obra.</p>
+                                </div>
+                                <div class="resumen__card">
+                                    <span class="resumen__icon-box flota">
+                                        <i class="bi bi-truck"></i>
+                                    </span>
+                                    <h6 class="resumen__title">Flota bajo control</h6>
+                                    <p class="resumen__text">Sabé donde esta cada equipo, quien lo opera, cuando cargó su último parte y cuanto consume.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+            
+        <footer class="footer p-4 border-top bg-dark" data-bs-theme="dark">
+            <div class="footer-col-1">
+                <p class="mb-0 fw-bold text-body-secondary">
+                    <a href="https://adminobr.com/" target="_blank" class="text-body-secondary">AdminO</a>
+                </p>
+            </div>
+
+            <div class="footer-col-2">
+                <ul class="footer-links list-unstyled d-flex flex-row gap-2 ps-0 mb-2"> 
+                    <li class="nav-item"><a href="index.html" class="nav-link text-body-secondary">Inicio</a></li> 
+                    <li class="nav-item"><a href="modulos.html" class="nav-link text-body-secondary">Modulos</a></li> 
+                    <li class="nav-item"><a href="partes_diarios.html" class="nav-link text-body-secondary">Partes diarios</a></li> 
+                    <li class="nav-item"><a href="contacto.html" class="nav-link text-body-secondary">Contacto</a></li> 
+                </ul>
+            </div>
+
+            <div class="footer-col-3 ps-3">
+                <p class="mb-2 fw-bold text-body-secondary">
+                    Adminia © 2026
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

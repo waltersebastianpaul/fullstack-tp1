@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Una página sobre tecnología">
+    <meta name="keywords" content="app, android">
+    <meta name="author" content="Walter Sebastian Paul">
+    <title>AdminO - Contenido</title>
+    <link rel="stylesheet" href="css/modulos.css">
+    <link href="favicon.ico" rel="shortcut icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <div class="contenedor-principal container-fluid px-0">
+        <!-- ================= HEADER ================= -->
+        <header>
+            <nav class="navbar navbar-expand-lg bg-light border-bottom border-body fixed-top" data-bs-theme="ligth">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/admino_logo.png" alt="Logo AdminObr Menu" width="24" class="d-inline-block align-text-top me-2">AdminO</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    href="https://adminobr.com/" target="_blank">
+                    
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link active" href="modulos.html">Modulos</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="partes_diarios.html">Partes diarios</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        
+                        <a class="btn btn btn-primary d-lg-inline-block my-2 my-md-0 ms-md-3" href="https://adminobr.com/" target="_blank">Ingresar a la app</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <main>
+            <!-- ================= HERO ================= -->
+            <section class="hero">
+                <div class="wrapper hero__wrapper">
+                    <div>
+                        <span class="hero__label">
+                            PLATAFORMA
+                        </span>
+
+                        <h1 class="hero__title">
+                        Módulos de AdminO</span>
+                        </h1>
+
+                        <p class="hero__text">
+                        Cada módulo cubre una parte del trabajo diario. Todos comparten los mismos datos: lo que se carga desde la obra en la app, aparece al instante en la web.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= MODULOS ================= -->
+            <section class="modulos">
+                <div class="wrapper modulos__wrapper">
+                    <div class="modulos__category mb-8">
+
+                        <div class="modulos__category-header">
+                            <h5 class="modulos__category-title">
+                            Operacion
+                            </h5>
+
+                            <p class="modulos__category-text">
+                            El día a día de la obra.
+                            </p>
+
+                        </div>
+                        <div class="modulos__cards">
+                            <div class="modulos__card">
+                                <span class="modulos__icon-box operacion">
+                                    <i class="bi bi-clipboard-check"></i>
+                                </span>
+                                <h6 class="modulos__title">Partes diarios</h6>
+                                <p class="modulos__text">Lo que hizo cada equipo por día: lecturas, combustible, mantenimiento y observaciones.</p>
+                            
+                                <ul class="modulos__list ps-3">
+                                    <li class="modulos__list-item">Carga desde la app o la web</li>
+                                    <li class="modulos__list-item">Filtros por periodo y equipo</li>
+                                    <li class="modulos__list-item">Detección de paros y sus causas</li>
+                            </div>
+
+                            <div class="modulos__card">
+                                <span class="modulos__icon-box operacion">
+                                    <i class="bi bi-truck"></i>
+                                </span>
+                                <h6 class="modulos__title">Movimientos</h6>
+                                <p class="modulos__text">Traslados de equipos entre sucursales. con salida, tránsito y recepción.</p>
+                            
+                                <ul class="modulos__list ps-3">
+                                    <li class="modulos__list-item">Pestañas: En tránsito, Programados, Historial</li>
+                                    <li class="modulos__list-item">Botón Recibir al llegar</li>
+                                    <li class="modulos__list-item">Lectura al salir de cada equipo</li>
+                                </ul>   
+                            </div>
+                            <div class="modulos__card">
+                                <span class="modulos__icon-box operacion">
+                                    <i class="bi bi-bar-chart-line"></i>
+                                </span>
+                                <h6 class="modulos__title">Observaciones</h6>
+                                <p class="modulos__text">Un muro con las novedades que el personal de campo reporta en sus partes.</p>
+                            
+                                <ul class="modulos__list ps-3">
+                                    <li class="modulos__list-item">Observaciones sin ver destacadas</li>
+                                    <li class="modulos__list-item">Respuesta desde la oficina</li>
+                                    <li class="modulos__list-item">Vinculadas al parte de origen</li>
+                                </ul>
+                            </div>
+                            <div class="modulos__card">
+                                <span class="modulos__icon-box operacion">
+                                    <i class="bi bi-bar-chart-line"></i>
+                                </span>
+                                <h6 class="modulos__title">Chat</h6>
+                                <p class="modulos__text">Mensajería interna entre la oficina y el personal de campo.</p>
+                            
+                                <ul class="modulos__list ps-3">
+                                    <li class="modulos__list-item">Conversaciones por equipo u obra</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="modulos__category-header">
+                            <h5 class="modulos__category-title">
+                            Flota y análisis
+                            </h5>
+
+                            <p class="modulos__category-text">
+                            Que equipos hay y como rinden.
+                            </p>
+
+                        </div>
+                        <div class="modulos__cards">
+                            <div class="modulos__card">
+                                <span class="modulos__icon-box flotaYAnalisis">
+                                    <i class="bi bi-clipboard-check"></i>
+                                </span>
+                                <h6 class="modulos__title">Equipos</h6>
+                                <p class="modulos__text">La flota de la empresa: dónde está cada equipo y cuándo cargó su último parte.</p>
+                            
+                                <ul class="modulos__list ps-3">
+                                    <li class="modulos__list-item">Interno, tipo, marca y modelo</li>
+                                    <li class="modulos__list-item">Sucursal y responsable actual</li>
+                                    <li class="modulos__list-item">Última lectura en km u horas</li>
+                            </div>
+
+                            <div class="modulos__card">
+                                <span class="modulos__icon-box flotaYAnalisis">
+                                    <i class="bi bi-truck"></i>
+                                </span>
+                                <h6 class="modulos__title">Reportes</h6>
+                                <p class="modulos__text">Indicadores del período: horas trabajadas, kilometros recorridos, consumo de combustible y días de paro.</p>
+                            
+                                <ul class="modulos__list ps-3">
+                                    <li class="modulos__list-item">Consumo por tipo de equipo</li>
+                                    <li class="modulos__list-item">Equipos que dejaron de cargar</li>
+                                    <li class="modulos__list-item">Consumos fuera de lo normal</li>
+                                </ul>   
+                            </div>
+                        </div>
+
+                        <div class="modulos__category-header">
+                            <h5 class="modulos__category-title">
+                            Gestion
+                            </h5>
+
+                            <p class="modulos__category-text">
+                            Quien accede y a qué.
+                            </p>
+
+                        </div>
+                        <div class="modulos__cards">
+                            <div class="modulos__card">
+                                <span class="modulos__icon-box gestion">
+                                    <i class="bi bi-clipboard-check"></i>
+                                </span>
+                                <h6 class="modulos__title">Usuarios</h6>
+                                <p class="modulos__text">Cada equipo registra lectura, horas, kilometros, combustible y paros desde el celular, aunque este en obra.</p>
+                            
+                                <ul class="modulos__list ps-3">
+                                    <li class="modulos__list-item">Un usuario, varias sucursales</li>
+                                    <li class="modulos__list-item">Acceso por código de empresa</li>
+                            </div>
+
+                            <div class="modulos__card">
+                                <span class="modulos__icon-box gestion">
+                                    <i class="bi bi-truck"></i>
+                                </span>
+                                <h6 class="modulos__title">Sucursales</h6>
+                                <p class="modulos__text">Sabé donde esta cada equipo, quien lo opera, cuando cargó su último parte y cuanto consume.</p>
+                            
+                                <ul class="modulos__list ps-3">
+                                    <li class="modulos__list-item">Ubicación de equipos</li>
+                                    <li class="modulos__list-item">Operador y parte diario</li>
+                                    <li class="modulos__list-item">Consumo de combustible</li>
+                                </ul>   
+                            </div>
+                            <div class="modulos__card">
+                                <span class="modulos__icon-box gestion">
+                                    <i class="bi bi-bar-chart-line"></i>
+                                </span>
+                                <h6 class="modulos__title">Roles y permisos</h6>
+                                <p class="modulos__text">Oué puede ver y hacer cada perfil dentro de la plataforma.</p>
+                            
+                                <ul class="modulos__list ps-3">
+                                    <li class="modulos__list-item">Permisos por módulo</li>
+                                    <li class="modulos__list-item">Roles reutilizables</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="modulos__category-header">
+                            <h5 class="modulos__category-title">
+                            Próximamente
+                            </h5>
+
+                            <p class="modulos__category-text">
+                            Módulos en desarrollo.
+                            </p>
+
+                        </div>
+                        <div class="modulos__cards">
+                            <div class="modulos__card">
+                                <span class="modulos__icon-box proximamente">
+                                    <i class="bi bi-clipboard-check"></i>
+                                </span>
+                                <h6 class="modulos__title">Stock</h6>
+                                <p class="modulos__text">Inventario de repuestos y materiales con sus movimientos.</p>
+                            
+                                <ul class="modulos__list ps-3">
+                                    <li class="modulos__list-item">Entradas y salidas</li>
+                                    <li class="modulos__list-item">Stock por sucursal</li>
+                            </div>
+
+                            <div class="modulos__card">
+                                <span class="modulos__icon-box proximamente">
+                                    <i class="bi bi-truck"></i>
+                                </span>
+                                <h6 class="modulos__title">Mantenimiento</h6>
+                                <p class="modulos__text">Servicios vencidos, próximos y planes por equipo, calculados con los partes.</p>
+                            
+                                <ul class="modulos__list ps-3">
+                                    <li class="modulos__list-item">Vencimientos y alertas</li>
+                                    <li class="modulos__list-item">Rutinas maestras (service 250 h, etc.)</li>
+                                    <li class="modulos__list-item">Control de fluidos</li>
+                                </ul>   
+                            </div>
+                            <div class="modulos__card">
+                                <span class="modulos__icon-box proximamente">
+                                    <i class="bi bi-bar-chart-line"></i>
+                                </span>
+                                <h6 class="modulos__title">Proveedores</h6>
+                                <p class="modulos__text">Talleres, repuesteros y servicios con los que trabaja la empresa.</p>
+                            
+                                <ul class="modulos__list ps-3">
+                                    <li class="modulos__list-item">Datos de contacto</li>
+                                    <li class="modulos__list-item">Asociados a mantenimientos</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="modulos__contact">
+                            <h5 class="modulos__title">Web en la oficina, app en la obra</h5>
+                            <div class="modulos__contact-content">
+                                <p class="modulos__text">
+                                    La app android está pensada para el operador y el encargado
+                                    de campo: cargar partes, registrar observaciones y recibir equipos.
+                                    La web suma el panel, los reportes y la gestión de usuarios,
+                                    sucursales, equipos, roles y permisos.
+                                </p>
+
+                                <a class="btn btn-primary" href="https://adminobr.com/" target="_blank">
+                                    Consultar por la app
+                                </a>
+                            </div>
+                        </div>
+                </div>
+            </section>
+        </main>
+            
+        <footer class="footer p-4 border-top bg-dark" data-bs-theme="dark">
+            <div class="footer-col-1">
+                <p class="mb-0 fw-bold text-body-secondary">
+                    <a href="https://adminobr.com/" target="_blank" class="text-body-secondary">AdminO</a>
+                </p>
+            </div>
+
+            <div class="footer-col-2">
+                <ul class="footer-links list-unstyled d-flex flex-row gap-2 ps-0 mb-2"> 
+                    <li class="nav-item"><a href="index.html" class="nav-link text-body-secondary">Inicio</a></li> 
+                    <li class="nav-item"><a href="modulos.html" class="nav-link text-body-secondary">Modulos</a></li> 
+                    <li class="nav-item"><a href="partes_diarios.html" class="nav-link text-body-secondary">Partes diarios</a></li> 
+                    <li class="nav-item"><a href="contacto.html" class="nav-link text-body-secondary">Contacto</a></li> 
+                </ul>
+            </div>
+
+            <div class="footer-col-3 ps-3">
+                <p class="mb-2 fw-bold text-body-secondary">
+                    Adminia</a> © 2026
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
