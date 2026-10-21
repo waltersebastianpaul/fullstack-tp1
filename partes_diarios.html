@@ -21,8 +21,14 @@
             <nav class="navbar navbar-expand-lg bg-light border-bottom border-body fixed-top" data-bs-theme="light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <img src="img/admino_logo.png" alt="Logo AdminObr Menu" width="24" class="d-inline-block align-text-top me-2">AdminO</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="img/admino_logo.png" alt="Logo AdminObr Menu" width="26" class="d-inline-block align-text-top me-2">
+                        <div class="navbar-brand__text">
+                            <strong>AdminO</strong>
+                            <p>Gestión inteligente</p>
+                        </div>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    href="https://adminobr.com/" target="_blank">
                     
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -55,7 +61,7 @@
                 <section class="hero">
                     <div class="wrapper hero__wrapper">
                     
-                        <div>
+                        <div class="hero__content">
                             <p class="hero__breadcrumbs">
                                 Inicio > Modulos > <span class="hero__breadcrumb">Partes diarios</span>
                             </p>
@@ -96,23 +102,41 @@
                                     <li><strong>Observaciones</strong> con las novedades del equipo. Que se respopnden desde el muro.</li>
                                 </ol>
                             </div>
-                        
+                    
                         </div>
+
                         <div class="hero__resumen">
                             <div class="resumen__cards">
                                 <div class="resumen__card">
-                                    <span class="resumen__icon-box partes">
-                                        <i class="bi bi-clipboard-check"></i>
-                                    </span>
-                                    <h6 class="resumen__title">Partes diarios</h6>
-                                    <p class="resumen__text">Cada equipo registra lectura, horas, kilometros, combustible y paros desde el celular, aunque este en obra.</p>
-                                </div>
-                                <div class="resumen__card">
-                                    <span class="resumen__icon-box flota">
-                                        <i class="bi bi-truck"></i>
-                                    </span>
-                                    <h6 class="resumen__title">Flota bajo control</h6>
-                                    <p class="resumen__text">Sabé donde esta cada equipo, quien lo opera, cuando cargó su último parte y cuanto consume.</p>
+                   
+                                    <h6 class="resumen__card-title">En resumen</h6>
+
+                                    <p class="resumen__title">Quien lo carga</p>
+                                    <p class="resumen__text">Operador o encargado de campo</p>
+                            
+                                    <p class="resumen__title">Desde donde</p>
+                                    <p class="resumen__text">App Android o AdminO Web</p>
+
+                                    <p class="resumen__title">Frecuencia</p>
+                                    <p class="resumen__text">Uno por equipo y por día</p>
+
+                                    <p class="resumen__title">Se usa en</p>
+                                    <p class="resumen__text">Inicio, Reportes, Observaciones</p>
+
+                                    <!-- Imagen debajo del texto -->
+                                    <img src="img/app_admino_partes.png"
+                                        alt="Pantalla de partes diarios de AdminO"
+                                        class="resumen__image">
+
+                                    <!-- Botón -->
+                                    <a href="adminobr.com" class="btn btn-secondary d-block w-100 mt-3" target="_blank">
+                                        Ir a AdminO
+                                    </a>
+
+                                    <!-- Enlace debajo del botón -->
+                                    <a href="modulos.html" class="resumen__back d-block w-100 mt-2 text-center text-decoration-none">
+                                        &larr; Volver a Módulos
+                                    </a>
                                 </div>
                             </div>
 
@@ -123,7 +147,7 @@
             </div>
         </main>
             
-        <footer class="footer p-4 border-top bg-dark" data-bs-theme="dark">
+        <footer class="footer p-3 border-top bg-dark" data-bs-theme="dark">
             <div class="footer-col-1">
                 <p class="mb-0 fw-bold text-body-secondary">
                     <a href="https://adminobr.com/" target="_blank" class="text-body-secondary">AdminO</a>
